@@ -1,0 +1,69 @@
+<!--Spring Framework - Describir las funcionalidades de este Framework-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Framework</title>
+</head>
+<style>
+    h1
+    {
+        color: blue;
+        text-align: center;
+        font-size: 50px;
+        background-color: rgb(92, 118, 202);
+        padding: 20px;
+        
+    }
+    p
+    {
+        color: rgb(69, 69, 99);
+        font-size: 20px;
+        text-align: justify;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+    body
+    {
+        background-color: lightgray;
+    }
+</style>
+<body>
+    <h1>Spring Framework</h1>
+    <p>Spring es un framework de desarrollo de aplicaciones Java que proporciona una serie de funcionalidades para facilitar la creación de aplicaciones empresariales. Algunas de las características más destacadas de Spring son:</p>
+    <ul>
+        <li>Control de transacciones: Spring proporciona una capa de abstracción para el manejo de transacciones, lo que facilita la implementación de transacciones distribuidas y locales.</li>
+        <li>Inyección de dependencias: Spring permite la inyección de dependencias, lo que facilita la creación de aplicaciones escalables y mantenibles.</li>
+        <li>Concurrencia: Spring proporciona una serie de herramientas para la gestión de concurrencia, como el manejo de hilos y la sincronización.</li>
+        <li>Seguridad: Spring Security es un módulo de Spring que proporciona una capa de seguridad para aplicaciones web.</li>
+        <li>Integración: Spring proporciona una serie de módulos para la integración con otras tecnologías, como Hibernate, JPA, JMS, etc.</li>
+    </ul>
+    <p>Además de estas características, Spring también ofrece una serie de módulos adicionales para abordar diferentes problemas comunes en el desarrollo de aplicaciones, como la creación de servicios web RESTful, la creación de aplicaciones de microservicios, etc.</p>
+    <!--mas informacion-->
+    <h2>Más información</h2>
+    <p>Para obtener más información sobre Spring Framework, puede visitar el sitio web oficial de Spring: <a href="https://spring.io/projects/spring-framework">https://spring.io/projects/spring-framework</a>.</p> </div>
+    <!--Ejemplo-->
+    <h2>Ejemplo</h2>
+    <p>A continuación se muestra un ejemplo básico de cómo utilizar Spring Framework para crear una aplicación web:</p>
+    <pre><code>
+import org.springframework.boot.SpringApplication;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MyApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MyApplication.class, args);
+    }
+}
+</code></pre>
+    <p>En este ejemplo, se crea una clase llamada <code>MyApplication</code> que se anota con la anotación <code>@SpringBootApplication</code>. Esta anotación indica que la clase es una aplicación Spring Boot y que se debe iniciar la aplicación cuando se ejecuta el método <code>main</code>.</p>
+</div>
+</body>
+</html>
