@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Productos</title>
+    <style>
+    /* Reset de márgenes */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+    }
+
+    header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    #product-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .product-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .product-card h3 {
+        margin-top: 10px;
+        font-size: 1.2em;
+    }
+
+    .product-card p {
+        color: #555;
+        margin-top: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        margin-top: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de productos</h1>
+    </header>
+
+    <main>
+        <div id="product-list">
+        </div>
+    </main>
+    <script src="JSON_script.js"></script>
+</body>
+</html>

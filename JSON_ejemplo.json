@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung S22 Ultra",
+        "description": "Un celular con una excelente camara de alta calidad, resolucion de pantalla y procesador.",
+        "price": 450.00,
+        "image": "https://cdn.idealo.com/folder/Product/201734/5/201734572/s11_produktbild_max/samsung-galaxy-s22-ultra.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy Tab S7",
+        "description": "Una tableta con un excelente tamaño, tambien es apta para estudios y trabajo.",
+        "price": 365.00,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkIHnp0Lfhccep95lhhB2EjRf03Duhn8BVPg&s"
+    },
+    {
+        "id": 3,
+        "name": "Airpods 2da generacion",
+        "description": "Audifonos inalambricos de la marca Apple con excelente calidad de audio.",
+        "price": 195.00,
+        "image": "https://assets.gomarket.com.do/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeUNuR1E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f4eeb75938f29ea4bad8cafd65861a69314317e8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2d0eVpYTnBlbVZKSWc0eE1EQXdlREV3TURBR093WlVPZ3RsZUhSbGJuUkFCem9NWjNKaGRtbDBlVWtpQzBObGJuUmxjZ1k3QmxRNkNXTnliM0JKSWhJeE1EQXdlREV3TURBck1Dc3dCanNHVkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--71a44c79d823a1905470f5208969c6cab1cf38a3/MQD83.jfif"
+    },
+    {
+        "id": 4,
+        "name": "Apple Pencil 1ra generación",
+        "description": "Lapiz tactil elaborado para dispositivos de Apple(celulares y tablets).",
+        "price": 150.00,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCFZE3nzudR4tcwujLJo5JUQSGBl1xtzVALA&s"
+    },
+    {
+        "id": 5,
+        "name": "Apple Ipad 10ma generación",
+        "description": "Audifonos inalambricos de la marca Apple con excelente calidad de audio.",
+        "price": 259.00,
+        "image": "https://www.apple.com/v/ipad-10.9/d/images/overview/hero/hero__ecv967jz1y82_large.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Google Pixel 7",
+        "description": "Audifonos inalambricos de la marca Apple con excelente calidad de audio.",
+        "price": 425.00,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5WMbCETSeva7To5m8ICIugXoNElne1bfXOw&s"
+    }
+]
