@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        /* Estilo general */
+        body 
+        {
+            font-family: Arial, sans-serif;
+            background-color: #f4f0ff; /* Fondo suave morado */
+            color: #4c2a85; /* Texto principal morado oscuro */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Contenedor del formulario */
+        form {
+            background-color: #ffffff; /* Fondo blanco del formulario */
+            border: 2px solid #d1c4f6; /* Borde morado claro */
+            border-radius: 10px;
+            padding: 20px 40px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Encabezado del formulario */
+        h2 {
+            text-align: center;
+            color: #5e35b1; /* Morado vibrante */
+            margin-bottom: 20px;
+        }
+
+        /* Estilo de las etiquetas */
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #4c2a85;
+        }
+
+        /* Estilo de los campos de entrada */
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #c5b1e3; /* Borde morado claro */
+            border-radius: 5px;
+            background-color: #f9f6ff; /* Fondo morado muy claro */
+            font-size: 16px;
+            color: #4c2a85;
+        }
+
+        /* Estilo del botón */
+        input[type="submit"] {
+            background-color: #7b1fa2; /* Botón morado oscuro */
+            color: #ffffff; /* Texto blanco */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Efecto hover en el botón */
+        input[type="submit"]:hover {
+            background-color: #5e35b1; /* Morado más claro al pasar el cursor */
+        }
+
+        /* Ajustes para textarea */
+        textarea {
+            resize: none; /* Evita el redimensionamiento */
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulario de Contacto</h2>
+    <form action="procesar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
