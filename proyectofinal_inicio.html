@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poreyecto final - Menú Dinámico</title>
+    <!--llamar css-->
+    <link rel="stylesheet" type="text/css" href="proyecto_estilo.css">
+</head>
+    <header>
+        <nav ="navbar">
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Mis proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+    </header>
+    <h1>Proyecto Final - Menú Dinamico - INF 517</h1>
+    <main>
+        <section id="inicio">
+            <h2>¡Bienvenid@s a esta página!</h2>
+            <p>
+                Esta página web es un proyecto final de la asignatura
+                Laboratorio de Programacion lll(INF-517), el cual 
+                consistiría de un menu dinamico en el se anexarían todas
+                las actividades y proyectos realizados durante este semestre
+                2024-20.
+            </p>
+        </section>
+        
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
+            <p>
+                Aquí se encuentran todos los proyectos que se han
+                realizado durante este semestre. Cada proyecto tiene su propio
+                enlace para acceder a la información relacionada.
+            </p>
+            <ul id="proyectos-list">
+                <li>
+                    <h3> Página sobre Arquitectura Web </h3>
+                    <p>
+                        Pagina en el que se muestra 
+                        un breve resumen con imágenes referentes 
+                        a Arquitectura de Aplicaciones Web
+                    </p>
+                    <a href="iindex.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Blog Personal</h3>
+                    <p>Pagina web que muestra mi blog personal</p>
+                    <a href="https://vanessarb1001.github.io/" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Lista 102</h3>
+                    <p>
+                        Pagina web que muestra el listado de 102
+                        etiquetas del lenguaje htm</p>
+                    <a href="https://vanessarb1001.github.io/lista.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Menu Princial</h3>
+                    <p>
+                        Pagina en el que se muestra un menu con html y css
+                    </p>
+                    <a href="https://vanessarb1001.github.io/menuprincipal.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>AJAX resumen</h3>
+                    <p>
+                        En este apartado, se encuentra un link a 
+                        la pagina que lleva a un resumen de AJAX
+                    </p>
+                    <a href="https://vanessarb1001.github.io/index_resumen.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Menu Multipagina</h3>
+                    <p>
+                        En este apartado, se encuentra un link a la 
+                        pagina que lleva a un formulario Multipagina.
+                    </p>
+                    <a href="https://vanessarb1001.github.io/indexDatos.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Validar Cedula</h3>
+                    <p>
+                        Apartado en el que llevara a la pagina para validar cedula.
+                    </p>
+                    <a href="https://vanessarb1001.github.io/validarcedula.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Formulario para generar QR</h3>
+                    <p>
+                        Pagina en el que se muestra un formulario de contacto 
+                        y que se genere un codigo QR con esos datos.
+                    </p>
+                    <a href="https://vanessarb1001.github.io/index_formulario.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Formulario para generar grafico</h3>
+                    <p>
+                        Pagina en el que se muestra un formulario de contacto 
+                        y que se genere un codigo QR con esos datos.
+                    </p>
+                    <a href="https://vanessarb9.github.io/index_formulario_grafico.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Resumen XML</h3>
+                    <p>
+                        Pagina en el que se muestra un resumen sobre
+                        XML, y un ejemplo.
+                    </p>
+                    <a href="https://vanessarb9.github.io/resumen_xml.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Resumen JSON</h3>
+                    <p>
+                        Pagina en el que se muestra un resumen sobre
+                        JSON, y un ejemplo.
+                    </p>
+                    <a href="https://vanessarb9.github.io/JSON_index.html" target="_blank">Ir al proyecto</a>
+                </li>
+                <li>
+                    <h3>Spring Framework</h3>
+                    <p>
+                        Pagina acerca de la descripcion de las funcionalidades de Spring Framework.
+                    </p>
+                    <a href="https://vanessarb9.github.io/SF_index.html" target="_blank">Ir al proyecto</a>
+                </li>
+            </ul>
+            <!--Seccion Contacto-->
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <form action="">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br><br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                    <br><br>
+        </section>
+            <p>Todos los derechos reservados &copy; 2024</p>
+            <p>Vanessa Ramos - 100542001</p>
+        </footer>
+    </main>
+    <script>
+        //botones enviar y limpiar
+        const form = document.querySelector('form');
+        const btnEnviar = document.querySelector('#enviar');
+        const btnLimpiar = document.querySelector('#limpiar');
+        
+        btnEnviar.addEventListener('click', function (e) {
+            e.preventDefault();
+            alert('Formulario enviado');
+        });
+        
+        btnLimpiar.addEventListener('click', function (e) {
+            e.preventDefault();
+            form.reset();
+        });
+        
+        //validacion email
+        const emailInput = document.querySelector('#email');
+        emailInput.addEventListener('input', function (e) {
+            const email = e.target.value;
+            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            
+            if (!regex.test(email)) {
+                emailInput.classList.add('error');
+            } else {
+                emailInput.classList.remove('error');
+            }
+        });
+        
+        //validacion nombre y apellido
+        const nombreInput = document.querySelector('#nombre');
+        const apellidoInput = document.querySelector('#apellido');
+        
+        nombreInput.addEventListener('input', function (e) {
+            const nombre = e.target.value;
+            const regex = /^[a-zA-Z]+$/;
+            
+            if (!regex.test(nombre)) {
+                nombreInput.classList.add('error');
+            } else {
+                nombreInput.classList.remove('error');
+            }
+        });
+        
+        apellidoInput.addEventListener('input', function (e) {
+            const apellido = e.target.value;
+            const regex = /^[a-zA-Z]+$/;
+            
+            if (!regex.test(apellido)) {
+                apellidoInput.classList.add('error');
+            } else {
+                apellidoInput.classList.remove('error');
+            }
+        });
+    </script>
+</body>
+</html>
